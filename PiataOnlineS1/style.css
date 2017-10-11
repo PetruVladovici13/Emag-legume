@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.header {
+  background: url("PiataOnline.jpg") no-repeat center center transparent;  
+  background-size: cover;
+  cursor: pointer;
+  height: 550px; 
+}
+
+.invisibleLink {
+	display: block;
+    height: 550px
+}
+
+.nav { 
+  background: #000;
+  height: 80px; 
+  width: 100%;
+}
+
+.nav ul {
+  height: 80px;
+  list-style: none;
+  text-align: center;
+  margin: 0 auto; 
+  padding: 0;
+}
+
+.nav ul li {
+  color: #fff;
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  padding: 0 80px;
+  transition: background 1s; 
+}
+
+.btn:hover, .nav ul li:hover {
+  background: #228b22;
+  cursor: pointer; 
+  transition: background 1s;  
+}
