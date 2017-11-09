@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  overflow: hidden;
+}
+
+.nav { 
+  background: #000;
+  height: 45px; 
+  width: 100%;
+}
+
+.nav ul {
+  height: 45px;
+  margin: 0 auto; 
+}
+
+.nav ul li {
+  color: #fff;
+  display: inline-block; 
+  height: 45px;
+  line-height: 45px; 
+  padding: 0 70px;
+  transition: background 1s; 
+  margin: 0 auto;
+}
+
+.btn:hover, .nav ul li:hover {
+  background: #117bff;
+  transition: background 1s;  
+}

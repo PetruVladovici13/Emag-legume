@@ -1,0 +1,4 @@
+Backend privit ca baza de date cu doua tabele: user si produse
+La tabela BD pt produse, aceasta ar urma sa contina toate datele de identificare pentru produse [de exemplu nume, pret, descriere etc], mapate pe coloanele tabelei
+Pentru fiecare produs operatiile stadard sa fie defnite ca niste functii iar produsul sa aibe o clasa standard de functii si atribute
+La fiecare tranzactie baza de date urmeaza a fi interogata, sau reactualizata dupa caz [vezi disparitia totala a unui produs din piata]
