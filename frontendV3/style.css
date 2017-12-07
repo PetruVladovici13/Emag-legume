@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  overflow: hidden;
+}
+
+.nav { 
+  background: #06169C;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.nav ul {
+  height: 50px;
+  margin: 0 auto; 
+}
+
+.nav ul li {
+  color: #fff;
+  display: inline-block; 
+  height: 50px;
+  line-height: 50px; 
+  padding: 0 70px;
+  transition: background 1s; 
+  margin: 0 auto;
+}
+
+#transition {
+  position:relative;
+  height: 50px;
+  width:60px;
+  margin:10px auto;
+}
+
+#transition img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#transition img.top:hover {
+  opacity:0;
+}
